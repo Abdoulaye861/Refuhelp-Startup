@@ -3,7 +3,7 @@ import Bootstrap from 'bootstrap/dist/css/bootstrap.css';
 
 import { Router, Route, Link, IndexRoute, browserHistory } from 'react-router';
 import  Homepage  from './components/HomePage/Homepage.js';
-
+import Main from './components/MainPage/Main.js';
 
 
 class App extends Component {
@@ -11,7 +11,8 @@ class App extends Component {
   render() {
       return (
          <Router history={browserHistory}>
-              <Route path="/" component={Homepage} />
+              <Route path="/" component={Main} />
+              <IndexRoute component={Main}/>
          </Router>
     );
   }

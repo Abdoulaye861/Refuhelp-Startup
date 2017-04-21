@@ -1,0 +1,103 @@
+
+.gride{
+  width: 100%;
+  max-width: 100%;
+  height:595px;
+  margin: auto;
+  display: block;
+  text-align: center;
+  background-image: url(img/ReelBg.png);
+  padding-top: 15px;
+  background-size: cover;
+
+}
+
+
+.figure{
+  width: 370px;
+  height: 260px;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  border: 4px solid #fff;
+  margin: 8px;
+  box-shadow: 0 0 5px #ddd;
+
+
+}
+
+.figcaption{
+  position: absolute;
+  left: 0; right: 0;
+  top: 0; bottom: 0;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+
+.figcaption a{
+   text-decoration: none;
+   border: 1px solid #fff;
+   padding: 32px  55px;
+   border: 3px solid #2CAACB;
+   font-size: 18px;
+   color: #000;
+   font-weight: bold;
+}
+
+.figcaption a:hover{
+   background: rgba(255,255,255,.7);
+}
+
+
+.figcaption div{
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+  top: 20px;
+  opacity: 0;
+  color: #2c3e50;
+  text-transform: uppercase;
+}
+
+.figcaption div:after{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 40%;
+  text-align: center;
+  margin: auto;
+  width: 0%;
+  background: #2c3e50;
+}
+
+.figure img{
+  -webkit-transition: all 0.9s linear;
+          transition: all 0.9s linear;
+  -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+          width: 100%;
+          height: 100%;
+
+}
+
+.figure:hover .figcaption{
+ background: rgba(255,255,255,0.3);
+}
+
+.figcaption:hover div{
+  opacity: 1;
+  top: 0;
+}
+
+.figcaption:hover div:after{
+  width: 50%;
+}
+
+.figure:hover img{
+  -webkit-transform: scale3d(1.2, 1.2, 1);
+          transform: scale3d(1.2, 1.2, 1);
+}
