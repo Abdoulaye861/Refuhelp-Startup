@@ -1,18 +1,33 @@
 import React, { Component } from 'react';
-import Bootstrap from 'bootstrap/dist/css/bootstrap.css';
 
-import { Router, Route, Link, IndexRoute, browserHistory } from 'react-router';
-import  Homepage  from './components/HomePage/Homepage.js';
-import Main from './components/MainPage/Main.js';
+import { Router, Route, IndexRoute, hashHistory } from 'react-router';
+
+import Homepage  from './components/HomePage/Homepage.js';
+import Main from './components/MainPage/Main';
+import Grid from './components/MainPage/Grid';
+import Accomodation from './components/GuidePages/Accomodation';
+import Administration from './components/GuidePages/Administration';
+import Health from './components/GuidePages/Health';
+import Hobbies from './components/GuidePages/Hobbies';
+import Insertion from './components/GuidePages/Insertion';
+import Connection from './components/GuidePages/Connection';
 
 
 class App extends Component {
 
   render() {
       return (
-         <Router history={browserHistory}>
-              <Route path="/" component={Main} />
-              <IndexRoute component={Main}/>
+         <Router history={hashHistory}>
+           <Route path="/" component={Homepage} />
+           <Route path="main" component={Main}>
+             <IndexRoute component={Grid}/>
+             <Route path="administration" component={Administration}/>
+             <Route path="accomodation" component={Accomodation}/>
+             <Route path="health" component={Health}/>
+             <Route path="hobbies" component={Hobbies}/>
+             <Route path="insertion" component={Insertion}/>
+             <Route path="connection" component={Connection}/>
+           </Route>
          </Router>
     );
   }

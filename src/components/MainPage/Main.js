@@ -10,7 +10,7 @@ class Main extends React.Component {
          return (
          <div className="mainwrapper">
              <MainHeader />
-             <Grid />
+              {this.props.children}
              <Footer />
          </div>
       );

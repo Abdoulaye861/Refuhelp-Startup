@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router"
 import './grid.css';
 import Heber       from "./img/herber.png";
 import Sante       from "./img/sante.png";
@@ -15,14 +16,14 @@ class Grid extends React.Component {
                    <div className="figure">
                      <img src={Heber} alt="Thumb" width="400" height="300" />
                         <div className="figcaption">
-                          <div> <a href="#">Hebergement</a> </div>
+                          <div><Link to="/main/accomodation">Hebergement</Link></div>
                        </div>
                    </div>
 
                    <div className="figure">
                      <img src={Sante} alt="Thumb" width="400" height="300" />
                         <div className="figcaption">
-                          <div> <a href="#">SANTE</a> </div>
+                          <div> <Link to="/main/health">SANTE</Link></div>
                        </div>
                    </div>
 
@@ -30,29 +31,29 @@ class Grid extends React.Component {
                    <div className="figure">
                      <img src={Admin} alt="Thumb" width="400" height="300" />
                         <div className="figcaption">
-                          <div> <a href="#">ADMINISTRATION</a></div>
+                          <div> <Link to="/main/administration">ADMINISTRATION</Link></div>
                        </div>
-                   </ div>
+                   </div>
 
 
                    <div className="figure">
                      <img src={Loisirs} alt="Thumb" width="400" height="300" />
                         <div className="figcaption">
-                          <div> <a href="#">LOISIRS</a></div>
+                          <div> <Link to="/main/hobbies">LOISIRS</Link></div>
                        </div>
                    </div>
 
                    <div className="figure">
                      <img src={Connection} alt="Thumb" width="400" height="300" />
                         <div className="figcaption">
-                           <div> <a href="#">CONNEXION</a></div>
+                           <div><Link to="/main/connection">CONNEXION</Link></div>
                         </div>
                    </div>
 
                    <div className="figure">
                     <img src={insertion} alt="Thumb" width="400" height="300" />
                        <div className="figcaption">
-                          <div> <a href="#">INSERTION  </a></div>
+                          <div> <Link to="/main/insertion">INSERTION </Link></div>
                        </div>
                  </div>
               </div>

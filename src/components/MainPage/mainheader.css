@@ -1,35 +1,19 @@
 .mainheader{
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 100%;
     height: auto;
     display:flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
-  .logo{
-
-  }
-  .logo img{
+  .logo img {
     width: 280px;
-
-
   }
 
-.face{
- padding-top: 26px;
- padding-left: 979px;
-}
-
-.face img{
-  width: 47px;
-}
-
-.twit img{
-  width: 40px;
-
-}
-
-.twit{
- padding-top: 30px;
- padding-left: 1%;
+.face, .twit {
+  width: 50px;
+  height: 50px;
 }
 
 .donate{

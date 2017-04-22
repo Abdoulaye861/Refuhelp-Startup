@@ -1,0 +1,67 @@
+body {
+   margin: 0;
+}
+
+.homepage {
+   background: url('../../img/Home.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: fixed;
+   background-attachment: scroll;
+   /*background-position: 50% 50%;*/
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+}
+
+.choix {
+   margin-left: 230px;
+   margin-top: 100px;
+}
+.home-content {
+   display: flex;
+   justify-content: space-around;
+}
+
+.language-select {
+   width: 180px;
+   padding: 6px 12px;
+}
+
+.video-accueil {
+    background-color: #4CAF50;
+    border: none;
+    color: #fff;
+    width: 180px;
+    border-radius: 5px;
+    padding: 10px 12px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.bienvenue {
+   margin-top: 100px;
+   text-align: center;
+}
+
+.btn-wrapper {
+   text-align: center;
+
+}
+.start {
+    background-color: #4CAF50;
+    border: none;
+    color: #fff;
+    width: 180px;
+    margin-top: 100px;
+    border-radius: 5px;
+    padding: 10px 12px;
+    text-align: center;
+
+}
+.close-modal {
+   text-align: center;
+   color: #000;
+   font-weight: bold;
+}
