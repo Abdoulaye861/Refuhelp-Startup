@@ -20,7 +20,7 @@ closeModal () {
    render() {
          return (
          <div>
-             <h3 className="bienvenue"> Bienvenue sur Refuhelp!</h3>
+             <h3 className="bienvenue"> Bienvenue sur REFUHELP!</h3>
              <h4 className="choix">Choisissez une langue</h4>
              <div className="home-content">
                 <select className="language-select">
@@ -36,7 +36,7 @@ closeModal () {
                </ModalVideo>
              </div>
              <div className="btn-wrapper">
-               <Link to="main"><button className="start">COMMENCER ICI</button></Link>
+               <Link to="main">COMMENCER ICI </Link>
              </div>
          </div>
       );

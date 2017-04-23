@@ -1,5 +1,7 @@
 body {
    margin: 0;
+   font-family: 'Roboto';
+
 }
 
 .homepage {
@@ -16,48 +18,98 @@ body {
 }
 
 .choix {
-   margin-left: 230px;
+   margin-left: 421px;
    margin-top: 100px;
+   margin-bottom: -1px;
+
+
 }
 .home-content {
    display: flex;
-   justify-content: space-around;
+   justify-content: center;
+   font-size: 17px;
+   padding-top: 4px;
 }
 
 .language-select {
    width: 180px;
    padding: 6px 12px;
+   font-size: 18px;
+   background-color: #648721;
+   border-radius: 5px;
+   color: #fff;
+   font-family: 'Roboto';
+   font-weight: bold;
+   box-shadow: 0px 5px 0px 0px #b9ddec;
+   margin-right: 150px;
+   letter-spacing: 1px;
+}
+
+option {
+ background-color: #fff;
+ color: #000;
+
 }
 
 .video-accueil {
-    background-color: #4CAF50;
+    background-color: #648721;
     border: none;
     color: #fff;
-    width: 180px;
+    width: 160px;
     border-radius: 5px;
-    padding: 10px 12px;
+    padding: 15px 12px;
     text-align: center;
     cursor: pointer;
+    position: relative;
+    display: inline-block;
+    box-shadow: 0px 5px 0px 0px #b9ddec;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 150px;
+    letter-spacing: 1px;
+
 }
+
+.video-accueil:active , .btn-wrapper:active {
+   transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
 
 .bienvenue {
    margin-top: 100px;
    text-align: center;
+   font-size: 36px;
+   letter-spacing: 2px;
+   color: #345677;
+
+
 }
+
 
 .btn-wrapper {
-   text-align: center;
-
-}
-.start {
-    background-color: #4CAF50;
+    background-color: #648721;
     border: none;
     color: #fff;
     width: 180px;
-    margin-top: 100px;
+    margin-top: 215px;
     border-radius: 5px;
-    padding: 10px 12px;
+    padding: 15px 20px;
     text-align: center;
+    box-shadow: 0px 5px 0px 0px #b9ddec;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: auto;
+    margin-left: auto;
+    letter-spacing: 1px;
+}
+
+.btn-wrapper a{
+ color: #fff;
+ text-decoration: none;
 
 }
 .close-modal {
