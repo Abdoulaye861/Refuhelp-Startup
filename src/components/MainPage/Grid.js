@@ -1,12 +1,11 @@
 import React from "react";
 import { Link } from "react-router"
-import './grid.css';
-import Heber       from "./img/herber.png";
-import Sante       from "./img/sante.png";
-import Admin       from "./img/admin.png";
-import Loisirs     from "./img/loisirs.png";
-import Connection  from "./img/Connection.png";
-import insertion   from "./img/insertion.png";
+import Heber       from "../../img/herber.png";
+import Sante       from "../../img/sante.png";
+import Admin       from "../../img/admin.png";
+import Loisirs     from "../../img/loisirs.png";
+import Connection  from "../../img/Connection.png";
+import insertion   from "../../img/insertion.png";
 
 class Grid extends React.Component {
    render() {
@@ -26,8 +25,6 @@ class Grid extends React.Component {
                           <div> <Link to="/main/health">SANTE</Link></div>
                        </div>
                    </div>
-
-
                    <div className="figure">
                      <img src={Admin} alt="Thumb" width="400" height="300" />
                         <div className="figcaption">
@@ -49,7 +46,6 @@ class Grid extends React.Component {
                            <div><Link to="/main/connection">CONNEXION</Link></div>
                         </div>
                    </div>
-
                    <div className="figure">
                     <img src={insertion} alt="Thumb" width="400" height="300" />
                        <div className="figcaption">

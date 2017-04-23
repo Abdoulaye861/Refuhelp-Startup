@@ -2,6 +2,7 @@ import React from "react";
 import MainHeader from './MainHeader.js';
 import Grid from './Grid.js';
 import Footer from './Footer';
+import './main.css'
 
 
 

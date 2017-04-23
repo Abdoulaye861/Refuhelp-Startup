@@ -1,3 +1,51 @@
+.mainheader{
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 100%;
+    height: auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo img {
+    width: 280px;
+    margin-left: 20px;
+  }
+
+.face, .twit{
+  width: 50px;
+  height: 50px;
+}
+.twit{
+  margin-right: 20px;
+}
+
+.donate{
+    display: inline-block;
+  	padding: 15px  20px;
+  	text-transform: uppercase;
+  	font-size: 15px;
+    font-weight: bold;
+    top:3%;
+    right: 9%;
+    text-align: center;
+    cursor: pointer;
+    background-color:#648721;
+    color: #fff;
+    position: absolute;
+    border-radius: 4px;
+    width: 100px;
+  box-shadow: 0px 5px 0px 0px #b9ddec;
+
+}
+
+.donate:hover{
+   background: #83e1fb;
+   border-color: #fff;
+   color: #fff;
+
+
+}
 
 .gride{
   width: 100%;
@@ -6,7 +54,7 @@
   margin: auto;
   display: block;
   text-align: center;
-  background-image: url(img/ReelBg.png);
+  background-image: url(../../img/ReelBg.png);
   padding-top: 15px;
   background-size: cover;
 
@@ -100,4 +148,16 @@
 .figure:hover img{
   -webkit-transform: scale3d(1.2, 1.2, 1);
           transform: scale3d(1.2, 1.2, 1);
+}
+.foot{
+  background-color:  #648721;
+  height: 90px;
+  margin: 0;
+}
+
+p{
+ color: #fff;
+ padding-top:30px;
+ padding-left: 13px;
+ font-size: 16px;
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import HomepageHeader from './HomepageHeader'
 import HomepageContent from './HomepageContent'
-
+import './homepage.css';
 
 
 
