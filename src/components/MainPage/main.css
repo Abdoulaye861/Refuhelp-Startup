@@ -11,6 +11,10 @@
     width: 280px;
     margin-left: 20px;
   }
+  .home {
+    width: 15%;
+    margin-left: 320px;
+  }
 
 .face, .twit{
   width: 50px;
@@ -55,8 +59,7 @@
   text-align: center;
   background-image: url(../../img/ReelBg.png);
   padding-top: 15px;
-  background-size: cover;
-
+  background-size: contain;
 }
 
 

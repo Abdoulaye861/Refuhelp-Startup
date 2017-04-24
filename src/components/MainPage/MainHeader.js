@@ -3,6 +3,7 @@ import { Link } from "react-router";
 import Logo from "../../img/logo.png";
 import Faceicon from "../../img/facebook-icon.png";
 import Twittter from "../../img/twitter-icon.png";
+import home from "../../img/menu.png";
 import './main.css'
 
 class MainHeader extends React.Component {
@@ -10,8 +11,10 @@ class MainHeader extends React.Component {
          return (
          <div className="mainheader">
             <div className="logo">
-                <Link to="main"><img src={Logo}/> </Link>
+                <Link to="/"><img src={Logo}/> </Link>
+
             </div>
+            <Link to="main"><img className="home" src={home} alt="home"/></Link>
              <div>
                <div className="donate"> Faire un Don </div>
                <a href="https://www.facebook.com/refuhelp.startup?fref=ts"><img className="face" src= {Faceicon}/></a>
