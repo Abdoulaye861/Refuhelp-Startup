@@ -1,7 +1,7 @@
 import React from "react";
 
 
-class ModalVideo extends React.Component {
+class ModalGuide extends React.Component {
     render() {
       if (this.props.isOpen === false)
         return null
@@ -44,4 +44,4 @@ class ModalVideo extends React.Component {
       }
     }
   }
- export default ModalVideo;
+ export default ModalGuide;

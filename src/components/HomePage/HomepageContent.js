@@ -20,7 +20,7 @@ closeModal () {
    render() {
          return (
          <div>
-             <h3 className="bienvenue"> Bienvenue sur REFUHELP!</h3>
+             <h3 className="bienvenue">Bienvenue sur REFUHELP!</h3>
              <h4 className="choix">Choisissez une langue</h4>
              <div className="home-content">
                 <select className="language-select">
