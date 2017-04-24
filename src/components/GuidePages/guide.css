@@ -16,7 +16,9 @@ margin: 0;
    display: flex;
    justify-content: center;
    height: 525px;
-   background-image: url(../../../src/img/guideBg.png);
+   background-image: url(../../../src/img/ContentBg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
 
 }
 
@@ -39,9 +41,9 @@ margin: 0;
   cursor: pointer;
   background-color:#ff4546;
   color: #fff;
-  width: 160px;
+  width: 200px;
   box-shadow: 0px 5px 0px 0px #b9ddec;
-  margin-top: 13%;
+  margin-top: 3%;
   margin-left: 30%;
   border-radius: 72px 0px 110px 0px;
   -moz-border-radius: 72px 0px 110px 0px;
@@ -76,4 +78,26 @@ margin: 0;
  -moz-border-radius: 15px 15px 0px 0px;
  -webkit-border-radius: 15px 15px 0px 0px;
  height: 40px;
+}
+.modal-guide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 9998;
+  justify-content: center;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modal-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    background: #fff;
+    width: 600px;
+    height: auto;
+    border-radius: 5px;
 }
