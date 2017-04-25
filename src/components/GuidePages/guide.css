@@ -14,16 +14,16 @@ margin: 0;
 .guideMain{
    width: 100%;
    display: flex;
-   justify-content: center;
-   height: 525px;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   height: auto;
    background-image: url(../../../src/img/ContentBg.png);
    background-repeat: no-repeat;
    background-size: cover;
-
 }
 
 .guides{
-  width: 450px;
+  width: 380px;
   height: 260px;
   margin: 8px;
   box-shadow: 0 0 5px #ddd;
@@ -35,16 +35,16 @@ margin: 0;
   display: inline-block;
   padding: 0px  20px;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: bold;
   text-align: center;
   cursor: pointer;
   background-color:#ff4546;
   color: #fff;
-  width: 200px;
+  width: 180px;
   box-shadow: 0px 5px 0px 0px #b9ddec;
   margin-top: 3%;
-  margin-left: 30%;
+  margin-left: 25%;
   border-radius: 72px 0px 110px 0px;
   -moz-border-radius: 72px 0px 110px 0px;
   -webkit-border-radius: 72px 0px 110px 0px;
@@ -78,6 +78,24 @@ margin: 0;
  -moz-border-radius: 15px 15px 0px 0px;
  -webkit-border-radius: 15px 15px 0px 0px;
  height: 40px;
+}
+@media screen and (max-width: 1024px) {
+    .guides{
+      width: 380px;
+      height: 260px;
+    }
+
+}
+@media screen and (max-width: 640px) {
+    .guides{
+      width: 300px;
+      height: 260px;
+    }
+    .guides .bouton{
+      font-size: 10px;
+      width: 100px;
+    }
+
 }
 .modal-guide {
   position: absolute;
