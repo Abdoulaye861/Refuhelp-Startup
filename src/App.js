@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import { Router, Route, IndexRoute, hashHistory } from 'react-router';
 
-import Homepage  from './components/HomePage/Homepage.js';
+// import Homepage  from './components/HomePage/Homepage.js';
 import Main from './components/MainPage/Main';
 import Grid from './components/MainPage/Grid';
 import Accomodation from './components/GuidePages/Accomodation';

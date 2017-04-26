@@ -1,5 +1,4 @@
 import React from "react";
-import ModalGuide from "./ModalGuide"
 import './guide.css';
 
 
