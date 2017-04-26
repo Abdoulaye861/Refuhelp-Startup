@@ -18,8 +18,8 @@ class App extends Component {
   render() {
       return (
          <Router history={hashHistory}>
-           <Route path="/" component={Homepage} />
-           <Route path="main" component={Main}>
+           {/* <Route path="/" component={Homepage} /> */}
+           <Route path="/" component={Main}>
              <IndexRoute component={Grid}/>
              <Route path="administration" component={Administration}/>
              <Route path="accomodation" component={Accomodation}/>
