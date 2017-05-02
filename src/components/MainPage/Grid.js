@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router"
-import Heber       from "../../img/herber.png";
+import Heber       from "../../img/Commodité.jpg";
 import Sante       from "../../img/sante.png";
 import Admin       from "../../img/admin.png";
 import Loisirs     from "../../img/loisirs.png";
@@ -12,10 +12,11 @@ class Grid extends React.Component {
          return (
          <div className="gridewrapper">
             <div className="gride">
+                  <h1>Bienvenue sur RefuHelp!</h1>
                    <div className="figure">
                      <img src={Heber} alt="Thumb" width="400" height="300" />
                         <div className="figcaption">
-                          <div><Link to="accomodation">Hebergement</Link></div>
+                          <div><Link to="accomodation">Commodites</Link></div>
                        </div>
                    </div>
 

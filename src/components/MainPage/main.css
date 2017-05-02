@@ -3,7 +3,10 @@ body {
    font-family: 'Roboto';
 
 }
-
+.mainwrapper {
+  min-width: 100vw;
+  min-height: 100vh
+}
 .mainheader{
     background-color: rgba(255, 255, 255, 0.2);
     width: 100%;
@@ -13,44 +16,83 @@ body {
     align-items: center;
   }
 
+  .language-select {
 
-  .logo {
-    width: 280px;
-    margin-left: 20px;
   }
-
-.donate{
-  	padding: 15px  20px;
-  	text-transform: uppercase;
-  	font-size: 15px;
-    font-weight: bold;
-    text-align: center;
-    cursor: pointer;
-    background-color:#648721;
-    color: #fff;
-    border-radius: 4px;
-    width: 100px;
-    margin-right: 20px;
-    box-shadow: 0px 5px 0px 0px #b9ddec;
+.dropdown {
+    position: relative;
+    display: inline-block;
 }
+.dropbtn, .video-accueil {
+    width: 160px;
+    background-color: #808080;
+    font-size: 14px;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: #000;
+    padding: 12px 16px;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+.dropdown:hover .dropbtn {
+    background-color: #597e13;
+}
+.dropdown-content img {
+  margin-top: 5px;
+}
+.logo {
+  width: 200px;
+  margin-left: 20px;
+}
+.close-modal {
+  text-align: center;
+  color: #000;
+}
+.close-modal button {
+  font-weight: bold;
+  font-size: 15px;
+  padding: 6px;
+}
+.donate{
+    cursor: pointer;
+    margin-right: 20px;
+}
+
 @media screen and (max-width: 640px) {
   .logo {
     width: 180px;
   }
-  .donate {
-    width: 80px;
-    font-size: 12px;
-    padding: 10px 15px;
+  .mainheader {
+    flex-direction: column;
   }
 }
 
-.donate:hover{
-   background: #83e1fb;
-   border-color: #fff;
-   color: #fff;
-
-
-}
 
 .gride{
   width: 100%;
@@ -58,14 +100,17 @@ body {
   height:auto;
   /*display: block;*/
   text-align: center;
-  background-image: url(../../img/ReelBg.png);
-  background-size: contain;
+  background-image: url(../../img/child.jpg);
+  background-size: cover;
   padding-top: 15px;
 }
-
+.gride > h1 {
+  font-size: 40px;
+  margin: 0;
+}
 .figure{
-  width: 330px;
-  height: 220px;
+  width: 300px;
+  height: 190px;
   overflow: hidden;
   position: relative;
   display: inline-block;
@@ -88,9 +133,9 @@ body {
 .figcaption a{
    text-decoration: none;
    border: 1px solid #fff;
-   padding: 32px  55px;
+   padding: 21px  22px;
    border: 3px solid #2CAACB;
-   font-size: 18px;
+   font-size: 15px;
    color: #000;
    font-weight: bold;
 }
@@ -161,7 +206,7 @@ body {
 .foot{
   background-color:  #648721;
   display: flex;
-  height: 90px;
+  /*height: 90px;*/
   margin: 0;
 }
 .face, .twit{
