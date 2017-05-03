@@ -84,16 +84,6 @@ body {
     margin-right: 20px;
 }
 
-@media screen and (max-width: 640px) {
-  .logo {
-    width: 180px;
-  }
-  .mainheader {
-    flex-direction: column;
-  }
-}
-
-
 .gride{
 
   max-width: 100%;
@@ -133,11 +123,30 @@ body {
 .figcaption a{
    text-decoration: none;
    border: 1px solid #fff;
-   padding: 21px  22px;
+   padding: 30px  50px;
    border: 3px solid #2CAACB;
-   font-size: 15px;
+   font-size: 20px;
    color: #000;
    font-weight: bold;
+}
+@media screen and (max-width: 640px) {
+  .logo {
+    width: 180px;
+  }
+  .mainheader {
+    flex-direction: column;
+  }
+  .figcaption a {
+    padding: 26px 44px;
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 640px) and (max-width: 1024px) {
+
+    .figcaption a {
+      padding: 26px 44px;
+      font-size: 16px;
+    }
 }
 @media screen and (max-width: 1024px) {
     .figure {
@@ -149,17 +158,28 @@ body {
     }
 
 }
-
-@media screen and (min-width: 1290px) and (max-width: 1800px) {
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
 
      .figure{
        width: 300px;
        height: 190px;
 
      }
+    .figcaption a {
+      padding: 26px 44px;
+      font-size: 16px;
+    }
+}
+@media screen and (min-width: 1280px) and (max-width: 1600px) {
 
-
-
+     .figure{
+       width: 370px;
+      height: 250px;
+     }
+   .figcaption a {
+     padding: 23px 35px;
+     font-size: 17px;
+   }
 }
 
 
