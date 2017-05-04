@@ -86,14 +86,18 @@ body {
 }
 
 .gride{
-    width: 100vw;
-    height:88vh;
+    width: 80%;
+    height:auto;
     overflow: auto;
     /*display: block;*/
     text-align: center;
-    background-image: url(../../img/child.jpg);
-    background-size: cover;
-    top: 50;
+
+    vertical-align: middle;
+    padding-top: 60px;
+    margin: 0 auto;
+
+    /*background-image: url(../../img/child.jpg);*/
+    /*background-size: cover;*/
 
 }
 .gride > h1 {
@@ -106,16 +110,17 @@ body {
    height: 88vh;
 
 
+
 }
 
 
 .figure{
-  width: 450px;
+  width: 350px;
   height: 290px;
   overflow: hidden;
   position: relative;
   display: inline-block;
-  vertical-align: top;
+  vertical-align: center;
   border: 4px solid #fff;
   margin: 8px;
   box-shadow: 0 0 5px #ddd;
