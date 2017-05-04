@@ -87,18 +87,28 @@ body {
 
 .gride{
     width: 100vw;
-    height:80vh;
+    height:88vh;
     overflow: auto;
     /*display: block;*/
     text-align: center;
     background-image: url(../../img/child.jpg);
     background-size: cover;
-    padding-top: 74px;
+    top: 50;
+
 }
 .gride > h1 {
   font-size: 40px;
   margin: 0;
 }
+
+.gridewrapper{
+   width: 100vw;
+   height: 88vh;
+
+
+}
+
+
 .figure{
   width: 450px;
   height: 290px;
