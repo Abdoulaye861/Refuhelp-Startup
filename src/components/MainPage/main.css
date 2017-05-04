@@ -86,15 +86,14 @@ body {
 }
 
 .gride{
-
-  width: 100vw;
-  height:80vh;
-  overflow: hidden;
-  /*display: block;*/
-  text-align: center;
-  background-image: url(../../img/child.jpg);
-  background-size: cover;
-  padding-top: 74px;
+    width: 100vw;
+    height:80vh;
+    overflow: auto;
+    /*display: block;*/
+    text-align: center;
+    background-image: url(../../img/child.jpg);
+    background-size: cover;
+    padding-top: 74px;
 }
 .gride > h1 {
   font-size: 40px;
