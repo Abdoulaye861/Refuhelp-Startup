@@ -6,7 +6,7 @@ body {
 .mainwrapper {
   width: 100vw;
   height: 100vh;
-  overflow:hidden;
+
 }
 .mainheader{
     background-color: rgba(255, 255, 255, 0.2);
@@ -86,18 +86,15 @@ body {
 }
 
 .gride{
-    width: 80%;
-    height:auto;
+    width: 100vw;
+    height: auto;
     overflow: auto;
     /*display: block;*/
     text-align: center;
-
     vertical-align: middle;
     padding-top: 60px;
-    margin: 0 auto;
-
-    /*background-image: url(../../img/child.jpg);*/
-    /*background-size: cover;*/
+    background-image: url(../../img/child.jpg);
+    background-size: cover;
 
 }
 .gride > h1 {
@@ -107,7 +104,7 @@ body {
 
 .gridewrapper{
    width: 100vw;
-   height: 88vh;
+   height: auto;
 
 
 
@@ -115,7 +112,7 @@ body {
 
 
 .figure{
-  width: 350px;
+  width: 450px;
   height: 290px;
   overflow: hidden;
   position: relative;
