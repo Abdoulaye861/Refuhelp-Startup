@@ -8,7 +8,7 @@ body, html {
 .mainwrapper {
   width: 100vw;
   height: 100vh;
-  /*overflow:hidden;*/
+  overflow:hidden;
 }
 .mainheader{
     background-color: #fff;
@@ -81,7 +81,7 @@ body, html {
 
 .grid{
     width: 100%;
-    height:calc(100% - 162px);
+    height:calc(100% - 130px);
     overflow: scroll;
     /*display: block;*/
     text-align: center;
