@@ -10,24 +10,23 @@ import insertion   from "../../img/insertion.png";
 class Grid extends React.Component {
    render() {
          return (
-         <div className="gridewrapper">
-            <div className="gride">
+            <div className="grid">
                   <h1>Bienvenue sur RefuHelp!</h1>
                    <div className="figure">
-                     <img src={Heber} alt="Thumb" width="400" height="300" />
+                     <img src={Heber} alt="Thumb" />
                         <div className="figcaption">
                           <div><Link to="accomodation">Commodites</Link></div>
                        </div>
                    </div>
 
                    <div className="figure">
-                     <img src={Sante} alt="Thumb" width="400" height="300" />
+                     <img src={Sante} alt="Thumb"/>
                         <div className="figcaption">
                           <div> <Link to="health">SANTE</Link></div>
                        </div>
                    </div>
                    <div className="figure">
-                     <img src={Admin} alt="Thumb" width="400" height="300" />
+                     <img src={Admin} alt="Thumb"/>
                         <div className="figcaption">
                           <div> <Link to="administration">ADMINISTRATION</Link></div>
                        </div>
@@ -35,27 +34,25 @@ class Grid extends React.Component {
 
 
                    <div className="figure">
-                     <img src={Loisirs} alt="Thumb" width="400" height="300" />
+                     <img src={Loisirs} alt="Thumb"/>
                         <div className="figcaption">
                           <div> <Link to="hobbies">LOISIRS</Link></div>
                        </div>
                    </div>
 
                    <div className="figure">
-                     <img src={Connection} alt="Thumb" width="400" height="300" />
+                     <img src={Connection} alt="Thumb"/>
                         <div className="figcaption">
                            <div><Link to="connection">CONNEXION</Link></div>
                         </div>
                    </div>
                    <div className="figure">
-                    <img src={insertion} alt="Thumb" width="400" height="300" />
+                    <img src={insertion} alt="Thumb"/>
                        <div className="figcaption">
                           <div> <Link to="insertion">INSERTION </Link></div>
                        </div>
                  </div>
               </div>
-
-         </div>
       );
     }
  }
