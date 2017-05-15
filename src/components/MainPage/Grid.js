@@ -12,20 +12,20 @@ class Grid extends React.Component {
          return (
             <div className="grid">
                   <h1>Bienvenue sur RefuHelp!</h1>
-                   <div className="figure">
+                   <div className="figure animated bounceInLeft">
                      <img src={Heber} alt="Thumb" />
                         <div className="figcaption">
                           <div><Link to="accomodation">Commodites</Link></div>
                        </div>
                    </div>
 
-                   <div className="figure">
+                   <div className="figure animated bounceIn">
                      <img src={Sante} alt="Thumb"/>
                         <div className="figcaption">
                           <div> <Link to="health">SANTE</Link></div>
                        </div>
                    </div>
-                   <div className="figure">
+                   <div className="figure animated bounceInRight">
                      <img src={Admin} alt="Thumb"/>
                         <div className="figcaption">
                           <div> <Link to="administration">ADMINISTRATION</Link></div>
@@ -33,20 +33,20 @@ class Grid extends React.Component {
                    </div>
 
 
-                   <div className="figure">
+                   <div className="figure animated bounceInLeft">
                      <img src={Loisirs} alt="Thumb"/>
                         <div className="figcaption">
                           <div> <Link to="hobbies">LOISIRS</Link></div>
                        </div>
                    </div>
 
-                   <div className="figure">
+                   <div className="figure animated bounceIn">
                      <img src={Connection} alt="Thumb"/>
                         <div className="figcaption">
                            <div><Link to="connection">CONNEXION</Link></div>
                         </div>
                    </div>
-                   <div className="figure">
+                   <div className="figure animated bounceInRight">
                     <img src={insertion} alt="Thumb"/>
                        <div className="figcaption">
                           <div> <Link to="insertion">INSERTION </Link></div>
