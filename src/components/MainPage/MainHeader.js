@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router";
 import { Button, Modal } from 'react-bootstrap';
-import WelcomeVideo from "./WelcomeVideo"
 import Logo from "../../img/logo.png";
 import france from "../../img/fr.png";
 import uk from "../../img/uk.png";
@@ -38,11 +37,10 @@ class MainHeader extends React.Component {
                   <Modal.Title>Comment ça marche?</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <iframe src="https://player.vimeo.com/video/23360044" width="640" height="360" frameBorder="0" allowFullScreen>
-                  </iframe>
+                  <div style={{textAlign:'center'}}><iframe src="https://player.vimeo.com/video/23360044" width="640" height="360" frameBorder="0" allowFullScreen>
+                </iframe></div>
                 </Modal.Body>
                 <Modal.Footer>
-                  <Button onClick={this.close}>Close</Button>
                 </Modal.Footer>
               </Modal>
               <div className="donate">

@@ -7,12 +7,12 @@ import 'react-bootstrap/dist/react-bootstrap.min';
 // import Homepage  from './components/HomePage/Homepage.js';
 import Main from './components/MainPage/Main';
 import Grid from './components/MainPage/Grid';
-import Accomodation from './components/GuidePages/Accomodation';
-import Administration from './components/GuidePages/Administration';
-import Health from './components/GuidePages/Health';
-import Hobbies from './components/GuidePages/Hobbies';
-import Insertion from './components/GuidePages/Insertion';
-import Connection from './components/GuidePages/Connection';
+import Accomodation from './components/GuidePages/Accomodation/Accomodation';
+import Administration from './components/GuidePages/Administration/Administration';
+import Health from './components/GuidePages/Health/Health';
+import Hobbies from './components/GuidePages/Hobbies/Hobbies';
+import Insertion from './components/GuidePages/Insertion/Insertion';
+import Connection from './components/GuidePages/Connection/Connection';
 
 
 class App extends Component {
