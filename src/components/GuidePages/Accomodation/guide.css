@@ -5,26 +5,39 @@ padding-top: 1%;
 padding-left:  1%;
 letter-spacing: 0.6px;
 margin: 0;
+background-color: #3454ba;
 }
 
 .cards {
   display: flex;
+  overflow: auto;
+  position: relative;
 }
 .guideMain, .adminMain, .healthMain, .connectMain, .hobbiesMain, .insertionMain {
    width: 100%;
-   height: calc(100vh - 120px);
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   overflow: scroll;
+   height: calc(100vh - 187px);
    background-image: url(../../../../src/img/mainBg.jpg);
    background-repeat: no-repeat;
    background-size: cover;
 }
 
+.headerss h3{
+   padding-left: 8px;
+   padding-top: 8px;
+   color: #fff;
+}
+
+.headerss{
+  background-color: #597e13;
+  height: 50px;
+
+
+}
+
+
 .guides{
-  width: 330px;
-  height: 390px;
+  width: 450px;
+  height: 380px;
   display: inline-block;
   margin: 8px;
   margin-left: 5.5%;

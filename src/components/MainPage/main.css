@@ -34,7 +34,7 @@ body, html {
 .dropbtn, .video-accueil {
     width: 8rem;
     margin-right: 0.5em;
-    background-color: #337ab7;
+    background-color: #3dcbd1;
     border-radius: 25px;
     border: none;
     font-size: 0.90rem;
@@ -96,12 +96,13 @@ body, html {
     /*vertical-align: middle;*/
     padding-top: 4%;
     margin: 0 auto;
+    background-image: url(../../img/bgone.png);
 
-    background-image: url(../../img/mainBg.jpg);
-    background-size: cover;
 }
 .grid h1 {
   font-size: 2.5rem;
+  font-weight: bold;
+   color: #597e13;
   margin: 0px;
 }
 
@@ -264,7 +265,7 @@ body, html {
           transform: scale3d(1.2, 1.2, 1);
 }
 .foot{
-  background-color:  #337ab7;
+  background-color:  #597e13;
   display: block;
   margin: 0;
 }
