@@ -16,7 +16,7 @@ class Grid extends React.Component {
                      <div className="figure animated bounceInLeft">
                        <img src={Heber} alt="Thumb" />
                           <div className="figcaption">
-                            <div><Link to="accomodation">Commodites</Link></div>
+                            <div><Link to="commodites">Commodites</Link></div>
                          </div>
                      </div>
 

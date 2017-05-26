@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { Router, Route, IndexRoute, hashHistory } from 'react-router';
+import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 
 import 'react-bootstrap/dist/react-bootstrap.min';
 
@@ -13,18 +13,21 @@ import Health from './components/GuidePages/Health/Health';
 import Hobbies from './components/GuidePages/Hobbies/Hobbies';
 import Insertion from './components/GuidePages/Insertion/Insertion';
 import Connection from './components/GuidePages/Connection/Connection';
+import DayUse from './components/GuidePages/Accomodation/DayUse';
 
 
 class App extends Component {
 
   render() {
       return (
-         <Router history={hashHistory}>
+         <Router history={browserHistory}>
            {/* <Route path="/" component={Homepage} /> */}
            <Route path="/" component={Main}>
              <IndexRoute component={Grid}/>
              <Route path="administration" component={Administration}/>
-             <Route path="accomodation" component={Accomodation}/>
+             <Route path="commodites" component={Accomodation}/>
+             <Route path="accueil-du-jour" component={DayUse}/>
+             {/* Route à nester*/}
              <Route path="health" component={Health}/>
              <Route path="hobbies" component={Hobbies}/>
              <Route path="insertion" component={Insertion}/>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router";
-import { Button, Modal } from 'react-bootstrap';
+import { Modal } from 'react-bootstrap';
 import Logo from "../../img/logo.png";
 import france from "../../img/fr.png";
 import uk from "../../img/uk.png";
@@ -34,7 +34,7 @@ class MainHeader extends React.Component {
               <button className="video-accueil" onClick={this.open}>Voir la vidéo</button>
               <Modal show={this.state.showModal} bsSize="large" onHide={this.close}>
                 <Modal.Header closeButton>
-                  <Modal.Title>Comment ça marche?</Modal.Title>
+                  <Modal.Title>C'est quoi RefuHelp?</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                   <div style={{textAlign:'center'}}><iframe src="https://player.vimeo.com/video/23360044" width="640" height="360" frameBorder="0" allowFullScreen>

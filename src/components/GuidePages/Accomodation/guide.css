@@ -1,13 +1,4 @@
 
-.guideMain > h3{
-font-size: 21px;
-padding-top: 1%;
-padding-left:  1%;
-letter-spacing: 0.6px;
-margin: 0;
-background-color: #3454ba;
-}
-
 .cards {
   display: flex;
   overflow: auto;
@@ -15,23 +6,28 @@ background-color: #3454ba;
 }
 .guideMain, .adminMain, .healthMain, .connectMain, .hobbiesMain, .insertionMain {
    width: 100%;
-   height: calc(100vh - 187px);
-   background-image: url(../../../../src/img/mainBg.jpg);
+   height: calc(100vh - 120px);
+   background-image: url(../../../../src/img/bgone.png);
    background-repeat: no-repeat;
    background-size: cover;
+   overflow: scroll;
 }
-
+.guideMain {
+  height: calc(100vh - 170px);
+}
+h3 {
+  margin: 0;
+}
 .headerss h3{
    padding-left: 8px;
    padding-top: 8px;
    color: #fff;
+   margin: 0;
 }
 
 .headerss{
   background-color: #597e13;
   height: 50px;
-
-
 }
 
 
@@ -97,6 +93,12 @@ background-color: #3454ba;
   background-color: #337ab7;
   color: #fff;
 
+}
+.housing {
+ list-style-image: url(../../../../src/img/home-icon.png);
+}
+.eating {
+  list-style-image: url(../../../../src/img/repas.png);
 }
 ul li button:active {
   transform: translate(0px, 5px);
