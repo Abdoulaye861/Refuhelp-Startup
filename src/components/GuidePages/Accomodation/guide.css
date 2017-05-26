@@ -7,7 +7,7 @@
 .guideMain, .adminMain, .healthMain, .connectMain, .hobbiesMain, .insertionMain {
    width: 100%;
    height: calc(100vh - 120px);
-   background-image: url(../../../../src/img/bgone.png);
+   background-image: url(../../../../src/img/Refu-bg.png);
    background-repeat: no-repeat;
    background-size: cover;
    overflow: scroll;
@@ -23,11 +23,14 @@ h3 {
    padding-top: 8px;
    color: #fff;
    margin: 0;
+
 }
 
 .headerss{
-  background-color: #597e13;
+  background-color: #3dcbd1;
   height: 50px;
+  width: 280px;
+  border-right: 4px Solid #000;
 }
 
 

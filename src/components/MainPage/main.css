@@ -13,7 +13,7 @@ body, html {
 .mainheader{
     background-color: #fff;
     width: 100%;
-    height: auto;
+    height: 89px;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -94,7 +94,7 @@ body, html {
     /*vertical-align: middle;*/
     padding-top: 4%;
     margin: 0 auto;
-    background-image: url(../../img/bgone.png);
+    background-image: url(../../img/Refu-bg.png);
     background-size: cover;
 
 }

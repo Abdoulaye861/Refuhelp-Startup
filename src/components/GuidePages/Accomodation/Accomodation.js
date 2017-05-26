@@ -24,10 +24,13 @@ class Accomodation extends React.Component {
          return (
          <div>
 
-            <div className="headerss">
-             <h3> Commodités </h3>
-           </div>
              <div className="guideMain">
+
+               <div className="headerss">
+                <h3> Commodités </h3>
+              </div>
+
+
                   <div className="cards">
                    <div className="guides  animated flipInX">
                       <div className="whereto"> <h3>Ou Dormir?</h3> </div>
