@@ -17,6 +17,7 @@ body, html {
     display:flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 24px;
   }
   .logo {
     width: 230px;
@@ -36,10 +37,11 @@ body, html {
     background-color: #3dcbd1;
     border-radius: 25px;
     border: none;
-    font-size: 0.90rem;
+    font-size: 1rem;
     color: #fff;
     padding: 0.60rem;
     cursor: pointer;
+    font-weight: bold;
 }
 .dropbtn {
   padding: 0.9rem;
@@ -87,7 +89,7 @@ body, html {
 
 .grid{
     width: 100%;
-    height:calc(100% - 120px);
+    height:calc(100% - 139px);
     overflow: scroll;
     /*display: block;*/
     text-align: center;
