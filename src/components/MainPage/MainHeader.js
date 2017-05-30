@@ -4,6 +4,7 @@ import { Modal } from 'react-bootstrap';
 import Logo from "../../img/logo.png";
 import france from "../../img/fr.png";
 import uk from "../../img/uk.png";
+import presentation from "../../img/presentation.mp4";
 import './main.css'
 
 class MainHeader extends React.Component {
@@ -37,8 +38,11 @@ class MainHeader extends React.Component {
                   <Modal.Title>C'est quoi RefuHelp?</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <div style={{textAlign:'center'}}><iframe src="https://player.vimeo.com/video/23360044" width="640" height="360" frameBorder="0" allowFullScreen>
-                </iframe></div>
+                  <div style={{textAlign:'center'}}>
+                    <video controls autoPlay width="600" height="400">
+                      <source src={presentation} type="video/mp4"/>
+                    </video>
+                  </div>
                 </Modal.Body>
                 <Modal.Footer>
                 </Modal.Footer>

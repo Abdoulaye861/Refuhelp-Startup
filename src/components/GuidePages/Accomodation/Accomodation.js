@@ -57,7 +57,7 @@ class Accomodation extends React.Component {
 
                          <li>  <img src={jaga} /> <Button onClick={() => this.setState({ showAsylumModal: true })}>Epicéries sociales</Button></li>
 
-                         <li> <img src={jaga} /> <Button onClick={() => this.setState({ showRefugeesModal: true })}> Restaurants solidaires</Button></li>
+                         <li> <img src={jaga} /> <Button> Restaurants solidaires</Button></li>
 
                            <RefugeesModal show={this.state.showRefugeesModal} onHide={refClose}/>
                        </ul>

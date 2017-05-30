@@ -6,14 +6,14 @@
 }
 .guideMain, .adminMain, .healthMain, .connectMain, .hobbiesMain, .insertionMain {
    width: 100%;
-   height: calc(100vh - 120px);
+   height: calc(100vh - 149px);
    background-image: url(../../../../src/img/Refu-bg.png);
    background-repeat: no-repeat;
    background-size: cover;
    overflow: scroll;
 }
 .guideMain {
-  height: calc(100vh - 139px);
+  height: calc(100vh - 149px);
 }
 h3 {
   margin: 0;
